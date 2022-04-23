@@ -1,0 +1,65 @@
+header {
+  background-image: -webkit-gradient(linear, left top, right top, from(#b304d6), to(#1035da));
+  background-image: linear-gradient(to right, #b304d6, #1035da);
+}
+
+header .container {
+  max-width: 1290px;
+}
+
+header .container .navbar .nav-logo {
+  width: 170px;
+}
+
+header .container .navbar .nav-logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header .container .navbar .nav-logo img:hover {
+  cursor: pointer;
+}
+
+header .container .navbar .navigation .link {
+  padding: 18px 15px;
+  position: relative;
+}
+
+header .container .navbar .navigation .link:hover .dropdown {
+  display: inline-block;
+}
+
+header .container .navbar .navigation .link a {
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+header .container .navbar .navigation .link i {
+  font-size: 13px;
+  padding-left: 3px;
+}
+
+header .container .navbar .navigation .link .dropdown {
+  position: absolute;
+  width: 160px;
+  left: -62px;
+  bottom: -94px;
+  background-color: white;
+  display: none;
+}
+
+header .container .navbar .navigation .link .dropdown .child-link {
+  padding: 5px 20px;
+}
+
+header .container .navbar .navigation .link .dropdown .child-link:hover {
+  background-color: #eafdfa;
+}
+
+header .container .navbar .navigation .link .dropdown .child-link a {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
